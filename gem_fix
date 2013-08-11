@@ -1,0 +1,3 @@
+# instalar postgres puede dar un problema
+# asegurarse que este instalada la lib de linux llamada
+# libpq-dev [esto aplica para todos los DBMS]
