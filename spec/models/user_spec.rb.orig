@@ -1,6 +1,9 @@
 require 'spec_helper'
 
 describe User do
+<<<<<<< HEAD
+  pending "add some examples to (or delete) #{__FILE__}"
+=======
     before { @user = User.new(name: "Example User", email: "user@example.com") }
 
     subject { @user }
@@ -34,4 +37,5 @@ describe User do
         end
         it { should_not be_valid }
     end
+>>>>>>> 54b7123db7c221075ace1140e05a478bf97ca78c
 end
