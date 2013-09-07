@@ -1,0 +1,12 @@
+--- 
+cursor_positions: 
+  - :path: Gemfile
+    :cursor_offset: 0
+    :timestamp: 2013-09-04 22:27:18 -06:00
+  - :path: Guardfile
+    :cursor_offset: 0
+    :timestamp: 2013-08-07 10:46:06 -06:00
+  - :path: spec/requests/authentication_pages_spec.rb
+    :cursor_offset: 227
+    :timestamp: 2013-09-06 09:02:40 -06:00
+files_to_retain: 0

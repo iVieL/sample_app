@@ -1,0 +1,3 @@
+--- 
+open_files: 
+  - spec/requests/authentication_pages_spec.rb

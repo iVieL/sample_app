@@ -1,0 +1,145 @@
+1378492076
+About Page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/static_pages_spec.rb	describe "About Page" do
+AddAdminToUsers	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/db/migrate/20130905221659_add_admin_to_users.rb	class AddAdminToUsers 
+AddIndexToUsersEmail	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/db/migrate/20130819053042_add_index_to_users_email.rb	class AddIndexToUsersEmail 
+AddPasswordDigestToUsers	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/db/migrate/20130819055050_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
+AddRememberTokenToUsers	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/db/migrate/20130826202851_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
+Application	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/config/application.rb	  class Application 
+ApplicationController	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+AuthenticationPages	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "AuthenticationPages" do
+Contact Page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/static_pages_spec.rb	describe "Contact Page" do
+CreateUsers	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/db/migrate/20130817174433_create_users.rb	class CreateUsers 
+GET 'help'	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/controllers/static_pages_controller_spec.rb	describe "GET 'help'" do
+GET 'home'	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/controllers/static_pages_controller_spec.rb	describe "GET 'home'" do
+GET 'new'	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/controllers/users_controller_spec.rb	describe "GET 'new'" do
+Help Page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/static_pages_spec.rb	describe "Help Page" do
+Home Page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/static_pages_spec.rb	describe "Home Page" do
+SampleApp	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/config/application.rb	module SampleApp
+SessionsController	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
+SessionsHelper	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
+Signing in	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/features/signing_in.feature	Feature: Signing in
+Static Pages	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/static_pages_spec.rb	describe "Static Pages" do
+StaticPagesController	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
+StaticPagesHelper	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+Successful signin	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/features/signing_in.feature	Scenario: Successful signin
+Unsuccessful signin	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/features/signing_in.feature	Scenario: Unsuccessful signin
+User	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/example_user.rb	class User
+User	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/models/user.rb	class User 
+User Pages	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "User Pages" do
+UsersController	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/users_helper.rb	module UsersHelper
+VALID_EMAIL_REGEX	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/models/user.rb	    VALID_EMAIL_REGEX =
+about	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/static_pages_controller.rb	  def about
+admin_user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	    def admin_user
+after saving the user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
+after signing in	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "after signing in" do
+after submission	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "after submission" do
+after visiting another page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "after visiting another page" do
+as an admin user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "as an admin user" do
+as non-admin user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "as non-admin user" do
+as wrong user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "as wrong user" do
+authorization	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "authorization" do
+change	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/db/migrate/20130905221659_add_admin_to_users.rb	  def change
+change	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/db/migrate/20130826202851_add_remember_token_to_users.rb	  def change
+change	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/db/migrate/20130819055050_add_password_digest_to_users.rb	  def change
+change	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/db/migrate/20130819053042_add_index_to_users_email.rb	  def change
+change	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/db/migrate/20130817174433_create_users.rb	  def change
+concats two strings with spaces	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/helpers/users_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/helpers/static_pages_helper_spec.rb	it "concats two strings with spaces" do
+contact	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/static_pages_controller.rb	  def contact
+correct_user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	    def correct_user
+create	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	  def create
+create	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/sessions_controller.rb	  def create 
+create_form_for	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/sessions_controller.rb	  def create_form_for
+create_remember_token	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/models/user.rb	        def create_remember_token
+current_user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/sessions_helper.rb	  def current_user
+current_user=	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
+current_user?	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/sessions_helper.rb	  def current_user?(user)
+delete links	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "delete links" do
+destroy	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	  def destroy
+destroy	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/sessions_controller.rb	  def destroy
+edit	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "edit" do
+edit	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	  def edit
+email	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/example_user.rb	    attr_accessor :name, :email
+followed by signout	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "followed by signout" do
+for no-signed-in users	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "for no-signed-in users" do
+formatted_email	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/example_user.rb	    def formatted_email
+full_title	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
+full_title	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
+gravatar_for	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { size: 50 }) 
+he should see a signout link	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/features/step_definitions/authentication_steps.rb	Then /^he should see a signout link$/ do
+he should see an error message	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/features/step_definitions/authentication_steps.rb	Then /^he should see an error message$/ do
+he should see his profile page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/features/step_definitions/authentication_steps.rb	Then /^he should see his profile page$/ do
+he submits invalid signin information	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/features/step_definitions/authentication_steps.rb	When /^he submits invalid signin information$/ do
+help	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/static_pages_controller.rb	  def help
+home	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/static_pages_controller.rb	  def home
+in the Users controller	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Users controller" do
+index	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "index" do
+index	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	  def index
+initialize	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/example_user.rb	    def initialize(attributes = {})
+name	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/example_user.rb	    attr_accessor :name, :email
+new	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	  def new
+new	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/sessions_controller.rb	  def new
+page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "page" do
+pagination	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "pagination" do
+profile page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
+redirect_back_or	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/sessions_helper.rb	  def redirect_back_or(default)
+remember token	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "remember token" do
+return value of authenticate method	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
+returns http success	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/controllers/users_controller_spec.rb	it "returns http success" do
+returns http success	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
+returns http success	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
+secure_token	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/config/initializers/secret_token.rb	def secure_token
+should be able to delete another user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	it "should be able to delete another user" do
+should create a user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	it "should create a user" do
+should have the right links on the layout	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
+should include the base title	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/helpers/application_helper_spec.rb	it "should include the base title" do
+should inlcude the page title	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/helpers/application_helper_spec.rb	it "should inlcude the page title" do
+should list each user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	it "should list each user" do
+should not create a user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
+should not include a bar for the home page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
+should render the desired protected page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	it "should render the desired protected page" do
+show	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	  def show
+sign_in	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/support/utilities.rb	def sign_in(user, options={})
+sign_in	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
+sign_out	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/sessions_helper.rb	  def sign_out
+signed_in?	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
+signed_in_user	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	    def signed_in_user
+signin	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin" do
+signin page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
+signup	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
+signup page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+static_pages/help.html.erb	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/views/static_pages/help.html.erb_spec.rb	describe "static_pages/help.html.erb" do
+static_pages/home.html.erb	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/views/static_pages/home.html.erb_spec.rb	describe "static_pages/home.html.erb" do
+store_location	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/helpers/sessions_helper.rb	  def store_location
+string concat	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/helpers/users_helper_spec.rb	describe "string concat" do
+string concat	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/helpers/static_pages_helper_spec.rb	describe "string concat" do
+submiting to the update action	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "submiting to the update action" do
+submitting a DELETE request to the Users#destroy action	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting a DELETE request to the Users#destroy action" do
+submitting a PATCH request to the Users#update action	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting a PATCH request to the Users#update action" do
+the user submits valid signin information	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/features/step_definitions/authentication_steps.rb	When /^the user submits valid signin information$/ do
+update	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	  def update
+user_params	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/app/controllers/users_controller.rb	    def user_params
+users/new.html.erb	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/views/users/new.html.erb_spec.rb	describe "users/new.html.erb" do
+valid_signin	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/support/utilities.rb	def valid_signin(user)
+visiting Users#edit page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "visiting Users#edit page" do
+visiting the user inde	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "visiting the user inde" do
+visting the edit page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "visting the edit page" do
+when attempting to visit a protected page	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "when attempting to visit a protected page" do
+when email address is already taken	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
+when email is not present	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "when email is not present" do
+when name is not present	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "when name is not present" do
+when name is too long	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "when name is too long" do
+when password doesn't match confirmation	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
+when password is not present	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
+with a password that's too short	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "with a password that's too short" do
+with admin attribute set to 'true'	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "with admin attribute set to 'true'" do
+with invalid information	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
+with invalid password	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
+with valid information	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
+with valid password	/Users/vielinko/Documents/Personal/Capacitaciones/Ruby/rails/self_turorial/sample_app/spec/models/user_spec.rb	describe "with valid password" do
