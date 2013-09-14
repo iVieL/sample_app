@@ -11,6 +11,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @microposts = @user.microposts.paginate(page: params[:page])
   end
 
   def new
@@ -22,7 +23,7 @@ class UsersController < ApplicationController
     if @user.save
       sign_in @user
       flash[:success] = "Welcome to the sample App!"
-      redirect_to @user 
+      redirect_to @user
     else
       render 'new'
     end
@@ -44,9 +45,14 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    User.find(params[:id]).destroy
-    flash[:success] = "User destroyed."
-    redirect_to users_url
+    @user = User.find(params[:id])
+    if current_user?(@user)
+      redirect_to users_path, notice: "You can't destroy yourself."
+    else
+      @user.destroy
+     flash[:success] = "User destroyed."
+     redirect_to users_url
+    end
   end
 
   private
@@ -55,13 +61,14 @@ class UsersController < ApplicationController
       params.require(:user).permit(:name, :email, :password, :password_confirmation)
     end
 
-    def signed_in_user
-        #redirect_to signin_url, notice: "Please sign in." unless signed_in?
-        unless signed_in?
-            store_location
-            redirect_to signin_url, notice: "Please sign in."
-        end
-    end
+#### This method was moved to a helper, session_helper ... because of DRY
+#    def signed_in_user
+#        #redirect_to signin_url, notice: "Please sign in." unless signed_in?
+#        unless signed_in?
+#            store_location
+#            redirect_to signin_url, notice: "Please sign in."
+#        end
+#    end
 
     def correct_user
       @user = User.find(params[:id])
