@@ -34,6 +34,26 @@ describe "Static Pages" do
           expect(page).to have_selector("li##{item.id}", text: item.content)
         end
       end
+
+      it "should show the total feeds" do
+        expect(page).to have_content("micropost".pluralize(user.feed.count))
+      end
+
+      #describe "should has micropost pagination" do
+      #  before(:all) { 30.times { FactoryGirl.create(:micropost, user: user) } }
+      #  after(:all) { user.microposts.destroy }
+      #end
+
+      describe "follower/following counts" do
+        let(:other_user) { FactoryGirl.create(:user) }
+        before do
+          other_user.follow!(user)
+          visit root_path
+        end
+
+        it { should have_link("0 following", href: following_user_path(user)) }
+        it { should have_link("1 followers", href: followers_user_path(user)) }
+      end
     end
   end
 

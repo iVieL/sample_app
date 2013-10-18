@@ -14,6 +14,7 @@ group :development, :test do
 #    gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
+  gem 'activesupport' # support for methods like pluralize
 end
 
 group :test do
@@ -21,7 +22,7 @@ group :test do
     gem 'capybara', '2.1.0'
     gem 'factory_girl_rails', '4.2.1' # define ActiveRecord objects
 
-    gem 'cucumber-rails', '1.3.0' #, :require => true
+    gem 'cucumber-rails', '1.3.0' , :require => false 
     gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
@@ -46,8 +47,11 @@ gem 'coffee-rails', '4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '2.1.1'
 
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks', '1.1.1'
+# Prevent to turbolinks stop jquery, must need to add into app/assests/javascripts/applications.js -> //= require jquery-turbolinks
+#gem 'jquery-turbolinks'
+
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks , '1.1.1'
+gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '1.0.2'

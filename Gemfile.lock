@@ -229,6 +229,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   bcrypt-ruby (= 3.0.1)
   bootstrap-sass (= 2.3.2.0)
   bootstrap-will_paginate (= 0.0.9)
@@ -252,6 +253,6 @@ DEPENDENCIES
   sdoc (= 0.3.20)
   selenium-webdriver (= 2.0.0)
   spork-rails!
-  turbolinks (= 1.1.1)
+  turbolinks
   uglifier (= 2.1.1)
   will_paginate (= 3.0.4)
